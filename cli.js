@@ -59,11 +59,12 @@ class CLI {
       },
     )
     .then((answers) => {
-      const htmlPageContent = generateHTML(answers);
+      console.log(answers)
+    //   const htmlPageContent = generateHTML(answers);
   
-      fs.writeFile('logo.svg', htmlPageContent, (err) =>
-        err ? console.log(err) : console.log('Generated logo.svg!')
-      );
+    //   fs.writeFile('logo.svg', htmlPageContent, (err) =>
+    //     err ? console.log(err) : console.log('Generated logo.svg!')
+    //   );
     });
   }
 
