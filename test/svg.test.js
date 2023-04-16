@@ -1,5 +1,5 @@
-const SVG = require("./svg");
-const { Square } = require("./shapes");
+const SVG = require("../svg");
+const { Square } = require("../shapes.js");
 
 test("should render a 300 x 200 svg element", () => {
   const expectedSvg =
